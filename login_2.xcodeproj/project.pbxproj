@@ -13,6 +13,14 @@
 		837BF2E8259347AA00FBDC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837BF2E7259347AA00FBDC95 /* Assets.xcassets */; };
 		837BF2EB259347AA00FBDC95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837BF2EA259347AA00FBDC95 /* Preview Assets.xcassets */; };
 		837BF2EE259347AA00FBDC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837BF2EC259347AA00FBDC95 /* LaunchScreen.storyboard */; };
+		837BF2F825948B1300FBDC95 /* LoginText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837BF2F725948B1300FBDC95 /* LoginText.swift */; };
+		837BF2FC25948EDE00FBDC95 /* UserEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837BF2FB25948EDE00FBDC95 /* UserEmail.swift */; };
+		837BF30025948F4D00FBDC95 /* UserPwd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837BF2FF25948F4D00FBDC95 /* UserPwd.swift */; };
+		837BF3022594992300FBDC95 /* SignInText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837BF3012594992300FBDC95 /* SignInText.swift */; };
+		837BF304259499F600FBDC95 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837BF303259499F600FBDC95 /* SignInButton.swift */; };
+		837BF30625949B1C00FBDC95 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837BF30525949B1C00FBDC95 /* LoginButton.swift */; };
+		837BF30825949CBD00FBDC95 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837BF30725949CBD00FBDC95 /* Intro.swift */; };
+		837BF30A2594A1B800FBDC95 /* LoginMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837BF3092594A1B800FBDC95 /* LoginMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		837BF2EA259347AA00FBDC95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		837BF2ED259347AA00FBDC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		837BF2EF259347AA00FBDC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837BF2F725948B1300FBDC95 /* LoginText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginText.swift; sourceTree = "<group>"; };
+		837BF2FB25948EDE00FBDC95 /* UserEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEmail.swift; sourceTree = "<group>"; };
+		837BF2FF25948F4D00FBDC95 /* UserPwd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPwd.swift; sourceTree = "<group>"; };
+		837BF3012594992300FBDC95 /* SignInText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInText.swift; sourceTree = "<group>"; };
+		837BF303259499F600FBDC95 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		837BF30525949B1C00FBDC95 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		837BF30725949CBD00FBDC95 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		837BF3092594A1B800FBDC95 /* LoginMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,14 @@
 				837BF2E1259347A600FBDC95 /* AppDelegate.swift */,
 				837BF2E3259347A600FBDC95 /* SceneDelegate.swift */,
 				837BF2E5259347A600FBDC95 /* ContentView.swift */,
+				837BF30725949CBD00FBDC95 /* Intro.swift */,
+				837BF3092594A1B800FBDC95 /* LoginMain.swift */,
+				837BF2F725948B1300FBDC95 /* LoginText.swift */,
+				837BF2FB25948EDE00FBDC95 /* UserEmail.swift */,
+				837BF2FF25948F4D00FBDC95 /* UserPwd.swift */,
+				837BF30525949B1C00FBDC95 /* LoginButton.swift */,
+				837BF3012594992300FBDC95 /* SignInText.swift */,
+				837BF303259499F600FBDC95 /* SignInButton.swift */,
 				837BF2E7259347AA00FBDC95 /* Assets.xcassets */,
 				837BF2EC259347AA00FBDC95 /* LaunchScreen.storyboard */,
 				837BF2EF259347AA00FBDC95 /* Info.plist */,
@@ -146,9 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837BF30825949CBD00FBDC95 /* Intro.swift in Sources */,
+				837BF30025948F4D00FBDC95 /* UserPwd.swift in Sources */,
+				837BF30625949B1C00FBDC95 /* LoginButton.swift in Sources */,
+				837BF304259499F600FBDC95 /* SignInButton.swift in Sources */,
+				837BF2F825948B1300FBDC95 /* LoginText.swift in Sources */,
 				837BF2E2259347A600FBDC95 /* AppDelegate.swift in Sources */,
+				837BF2FC25948EDE00FBDC95 /* UserEmail.swift in Sources */,
 				837BF2E4259347A600FBDC95 /* SceneDelegate.swift in Sources */,
+				837BF3022594992300FBDC95 /* SignInText.swift in Sources */,
 				837BF2E6259347A600FBDC95 /* ContentView.swift in Sources */,
+				837BF30A2594A1B800FBDC95 /* LoginMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
